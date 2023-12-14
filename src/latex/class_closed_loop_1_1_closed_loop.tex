@@ -1,0 +1,115 @@
+\doxysection{Closed\+Loop.\+Closed\+Loop Class Reference}
+\hypertarget{class_closed_loop_1_1_closed_loop}{}\label{class_closed_loop_1_1_closed_loop}\index{ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_closed_loop_1_1_closed_loop_a43e1b4a579d7ead2dfddb44e7e9a11b0}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, period, Kp, Ki, ref, meas)
+\item 
+\mbox{\hyperlink{class_closed_loop_1_1_closed_loop_a816da5086e114ab7be813dd99324c387}{set\+\_\+\+Kp}} (self, Kp)
+\item 
+\mbox{\hyperlink{class_closed_loop_1_1_closed_loop_a64194822d3680c13c179b3bd01ed9b68}{set\+\_\+\+Ki}} (self, Ki)
+\item 
+\mbox{\hyperlink{class_closed_loop_1_1_closed_loop_a7729d04a10167714443f185d0f1793d5}{setpoint}} (self, ref)
+\item 
+\mbox{\hyperlink{class_closed_loop_1_1_closed_loop_a3b7cb7698bec4c47164ec580f52ec1f5}{update}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_a600c2ee167190f2afdf9fc38c849cf01}\label{class_closed_loop_1_1_closed_loop_a600c2ee167190f2afdf9fc38c849cf01} 
+{\bfseries Kp}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_af5c07eb738bea6f8f038dcc7a46024e7}\label{class_closed_loop_1_1_closed_loop_af5c07eb738bea6f8f038dcc7a46024e7} 
+{\bfseries Ki}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_ab9ca7a72b08cc5fb8c394f01aaa308b7}\label{class_closed_loop_1_1_closed_loop_ab9ca7a72b08cc5fb8c394f01aaa308b7} 
+{\bfseries meas}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_a251bd12741155bcc3291ed26b64d473f}\label{class_closed_loop_1_1_closed_loop_a251bd12741155bcc3291ed26b64d473f} 
+{\bfseries ref}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_a0acdcd788e7b98826d0a7d3f678228ae}\label{class_closed_loop_1_1_closed_loop_a0acdcd788e7b98826d0a7d3f678228ae} 
+{\bfseries error}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_ac7a7946f02af4df1f97f1ee5b74cb0bb}\label{class_closed_loop_1_1_closed_loop_ac7a7946f02af4df1f97f1ee5b74cb0bb} 
+{\bfseries integral}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_a1bca437dca304b5c09cce4e72a7af797}\label{class_closed_loop_1_1_closed_loop_a1bca437dca304b5c09cce4e72a7af797} 
+{\bfseries period}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_a974f388a6c267a4aee8b7d7657bd0e2a}\label{class_closed_loop_1_1_closed_loop_a974f388a6c267a4aee8b7d7657bd0e2a} 
+{\bfseries proportional}
+\item 
+\Hypertarget{class_closed_loop_1_1_closed_loop_add9a36f67edcf30547d56b1676d53b92}\label{class_closed_loop_1_1_closed_loop_add9a36f67edcf30547d56b1676d53b92} 
+{\bfseries L}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief      A closed loop feedback class implementing P, PI, or PID control
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_closed_loop_1_1_closed_loop_a43e1b4a579d7ead2dfddb44e7e9a11b0}\label{class_closed_loop_1_1_closed_loop_a43e1b4a579d7ead2dfddb44e7e9a11b0} 
+\index{ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily Closed\+Loop.\+Closed\+Loop.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{period,  }\item[{}]{Kp,  }\item[{}]{Ki,  }\item[{}]{ref,  }\item[{}]{meas }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief          initialize the parameters
+
+@param Kp       proportional control gain
+
+@param Ki       integral control gain
+
+@param ref      desired output
+
+@param meas     measured output
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_closed_loop_1_1_closed_loop_a64194822d3680c13c179b3bd01ed9b68}\label{class_closed_loop_1_1_closed_loop_a64194822d3680c13c179b3bd01ed9b68} 
+\index{ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}!set\_Ki@{set\_Ki}}
+\index{set\_Ki@{set\_Ki}!ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}}
+\doxysubsubsection{\texorpdfstring{set\_Ki()}{set\_Ki()}}
+{\footnotesize\ttfamily Closed\+Loop.\+Closed\+Loop.\+set\+\_\+\+Ki (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{Ki }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief          set the Ki
+
+@param Ki       integral control gain
+\end{DoxyVerb}
+ \Hypertarget{class_closed_loop_1_1_closed_loop_a816da5086e114ab7be813dd99324c387}\label{class_closed_loop_1_1_closed_loop_a816da5086e114ab7be813dd99324c387} 
+\index{ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}!set\_Kp@{set\_Kp}}
+\index{set\_Kp@{set\_Kp}!ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}}
+\doxysubsubsection{\texorpdfstring{set\_Kp()}{set\_Kp()}}
+{\footnotesize\ttfamily Closed\+Loop.\+Closed\+Loop.\+set\+\_\+\+Kp (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{Kp }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief          set the Kp
+
+@param Kp       proportional control gain
+\end{DoxyVerb}
+ \Hypertarget{class_closed_loop_1_1_closed_loop_a7729d04a10167714443f185d0f1793d5}\label{class_closed_loop_1_1_closed_loop_a7729d04a10167714443f185d0f1793d5} 
+\index{ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}!setpoint@{setpoint}}
+\index{setpoint@{setpoint}!ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}}
+\doxysubsubsection{\texorpdfstring{setpoint()}{setpoint()}}
+{\footnotesize\ttfamily Closed\+Loop.\+Closed\+Loop.\+setpoint (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ref }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief          set the desired value
+
+@param ref      desired output
+\end{DoxyVerb}
+ \Hypertarget{class_closed_loop_1_1_closed_loop_a3b7cb7698bec4c47164ec580f52ec1f5}\label{class_closed_loop_1_1_closed_loop_a3b7cb7698bec4c47164ec580f52ec1f5} 
+\index{ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}!update@{update}}
+\index{update@{update}!ClosedLoop.ClosedLoop@{ClosedLoop.ClosedLoop}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily Closed\+Loop.\+Closed\+Loop.\+update (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      math for obtaining the output after the controller
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Closed\+Loop.\+py\end{DoxyCompactItemize}

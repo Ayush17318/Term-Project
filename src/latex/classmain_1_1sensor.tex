@@ -1,0 +1,68 @@
+\doxysection{main.\+sensor Class Reference}
+\hypertarget{classmain_1_1sensor}{}\label{classmain_1_1sensor}\index{main.sensor@{main.sensor}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classmain_1_1sensor_a80a73184bd112b7dad0dd59d57f88309}\label{classmain_1_1sensor_a80a73184bd112b7dad0dd59d57f88309} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, S11, S9, S7, S5, S3, S1)
+\item 
+\mbox{\hyperlink{classmain_1_1sensor_af5832be37bfa47254960a4831e1a5abb}{sen\+\_\+gen}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classmain_1_1sensor_aa35d3c7e8fc9ff7baf1ea75fabc3d40e}\label{classmain_1_1sensor_aa35d3c7e8fc9ff7baf1ea75fabc3d40e} 
+{\bfseries S1}
+\item 
+\Hypertarget{classmain_1_1sensor_a7afa8855c6ad1082adcb2205ee984f96}\label{classmain_1_1sensor_a7afa8855c6ad1082adcb2205ee984f96} 
+{\bfseries S3}
+\item 
+\Hypertarget{classmain_1_1sensor_acbd134eef8e3eba9bbbb6827c79a812a}\label{classmain_1_1sensor_acbd134eef8e3eba9bbbb6827c79a812a} 
+{\bfseries S5}
+\item 
+\Hypertarget{classmain_1_1sensor_aa5aab8981ed35bb23d3ea329f65a5453}\label{classmain_1_1sensor_aa5aab8981ed35bb23d3ea329f65a5453} 
+{\bfseries S7}
+\item 
+\Hypertarget{classmain_1_1sensor_a47032de0dd93c99418758f80067eaf0d}\label{classmain_1_1sensor_a47032de0dd93c99418758f80067eaf0d} 
+{\bfseries S9}
+\item 
+\Hypertarget{classmain_1_1sensor_a95882d16a838393ff28cee553c69178c}\label{classmain_1_1sensor_a95882d16a838393ff28cee553c69178c} 
+{\bfseries S11}
+\item 
+\Hypertarget{classmain_1_1sensor_a8d24ee84509b45f2fd5edc9942ed23f3}\label{classmain_1_1sensor_a8d24ee84509b45f2fd5edc9942ed23f3} 
+{\bfseries state}
+\item 
+\Hypertarget{classmain_1_1sensor_a7359e92cacd6e2880741d286f2b705f8}\label{classmain_1_1sensor_a7359e92cacd6e2880741d286f2b705f8} 
+{\bfseries black}
+\item 
+\Hypertarget{classmain_1_1sensor_ac31ce4f50e93756790e9d42f2503de53}\label{classmain_1_1sensor_ac31ce4f50e93756790e9d42f2503de53} 
+{\bfseries white}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief  class to read sensor data and decide what the motors should do
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classmain_1_1sensor_af5832be37bfa47254960a4831e1a5abb}\label{classmain_1_1sensor_af5832be37bfa47254960a4831e1a5abb} 
+\index{main.sensor@{main.sensor}!sen\_gen@{sen\_gen}}
+\index{sen\_gen@{sen\_gen}!main.sensor@{main.sensor}}
+\doxysubsubsection{\texorpdfstring{sen\_gen()}{sen\_gen()}}
+{\footnotesize\ttfamily main.\+sensor.\+sen\+\_\+gen (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      sensor generator function for round robin multi-tasking
+
+@details    takes in sensor data and tells the motors to do one of the following:
+            go straight
+            turn soft left
+            turn hard left
+            turn soft right
+            turn hard right
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main.\+py\end{DoxyCompactItemize}
