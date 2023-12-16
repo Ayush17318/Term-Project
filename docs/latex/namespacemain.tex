@@ -12,8 +12,7 @@ class \mbox{\hyperlink{classmain_1_1switch}{switch}}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{namespacemain_a8dec7a4fd3af23cb285860f2f61fefda}\label{namespacemain_a8dec7a4fd3af23cb285860f2f61fefda} 
-{\bfseries motor\+\_\+toggle} (mot\+\_\+R, mot\+\_\+L, status)
+\mbox{\hyperlink{namespacemain_a8dec7a4fd3af23cb285860f2f61fefda}{motor\+\_\+toggle}} (mot\+\_\+R, mot\+\_\+L, status)
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Variables}
 \begin{DoxyCompactItemize}
@@ -24,20 +23,20 @@ class \mbox{\hyperlink{classmain_1_1switch}{switch}}
 \Hypertarget{namespacemain_adabac1aa12fb23118ac0da0a7e8fd85b}\label{namespacemain_adabac1aa12fb23118ac0da0a7e8fd85b} 
 {\bfseries turn\+\_\+q\+\_\+l} = \mbox{\hyperlink{classtask__share_1_1_queue}{task\+\_\+share.\+Queue}}(\textquotesingle{}H\textquotesingle{}, 1000, name = \textquotesingle{}turn left\textquotesingle{})
 \item 
+\Hypertarget{namespacemain_ab67b9b00a8901610b9b983f7bdf737ad}\label{namespacemain_ab67b9b00a8901610b9b983f7bdf737ad} 
+{\bfseries sensor\+\_\+q} = \mbox{\hyperlink{classtask__share_1_1_queue}{task\+\_\+share.\+Queue}}(\textquotesingle{}H\textquotesingle{}, 1000, name = \textquotesingle{}turn off \mbox{\hyperlink{classmain_1_1sensor}{sensor}}\textquotesingle{})
+\item 
+\Hypertarget{namespacemain_ad725dc64b1972a71db60482449eb4fa6}\label{namespacemain_ad725dc64b1972a71db60482449eb4fa6} 
+{\bfseries sensor\+\_\+end\+\_\+q} = \mbox{\hyperlink{classtask__share_1_1_queue}{task\+\_\+share.\+Queue}}(\textquotesingle{}H\textquotesingle{}, 1000, name = \textquotesingle{}turn off \mbox{\hyperlink{classmain_1_1sensor}{sensor}}\textquotesingle{})
+\item 
 \Hypertarget{namespacemain_af9a23b688552bf19632d2c718db91b3f}\label{namespacemain_af9a23b688552bf19632d2c718db91b3f} 
-int {\bfseries m\+\_\+per} = 5
+int {\bfseries m\+\_\+per} = 15
 \item 
 \Hypertarget{namespacemain_aae213ce6a9d1102b7b4c45f14172611c}\label{namespacemain_aae213ce6a9d1102b7b4c45f14172611c} 
-int {\bfseries s\+\_\+per} = 15
+int {\bfseries s\+\_\+per} = 30
 \item 
 \Hypertarget{namespacemain_a184b88d5c295994d6c88a3b05cf531b3}\label{namespacemain_a184b88d5c295994d6c88a3b05cf531b3} 
 int {\bfseries l\+\_\+per} = 15
-\item 
-\Hypertarget{namespacemain_aae5013d481c91bc08afbc349fc4e81fc}\label{namespacemain_aae5013d481c91bc08afbc349fc4e81fc} 
-{\bfseries SWR} = Pin(Pin.\+cpu.\+B6, mode= Pin.\+IN)
-\item 
-\Hypertarget{namespacemain_a2c43384dd70b0c9dd96229385973a8b1}\label{namespacemain_a2c43384dd70b0c9dd96229385973a8b1} 
-{\bfseries SWL} = Pin(Pin.\+cpu.\+B10, mode = Pin.\+IN)
 \item 
 \Hypertarget{namespacemain_a8044945c46d51517eec3e1e59c06bfdc}\label{namespacemain_a8044945c46d51517eec3e1e59c06bfdc} 
 int {\bfseries AR} = 62354
@@ -90,6 +89,12 @@ int {\bfseries stat} = 0
 \Hypertarget{namespacemain_a861220be70117f8795fdc17a9316a727}\label{namespacemain_a861220be70117f8795fdc17a9316a727} 
 {\bfseries S11} = Pin(Pin.\+cpu.\+C3, mode = Pin.\+IN)
 \item 
+\Hypertarget{namespacemain_a11d208b16080eed60ae57bf05f4c9b9f}\label{namespacemain_a11d208b16080eed60ae57bf05f4c9b9f} 
+{\bfseries R1} = Pin(Pin.\+cpu.\+C1, mode = Pin.\+IN)
+\item 
+\Hypertarget{namespacemain_a3de9f6d788b7f1aed1de7d9183ac49ef}\label{namespacemain_a3de9f6d788b7f1aed1de7d9183ac49ef} 
+{\bfseries R3} = Pin(Pin.\+cpu.\+C0, mode = Pin.\+IN)
+\item 
 \Hypertarget{namespacemain_a6bea37c8342dc049c037650cb2bb5d80}\label{namespacemain_a6bea37c8342dc049c037650cb2bb5d80} 
 {\bfseries S1\+\_\+adc} = pyb.\+ADC(S1)
 \item 
@@ -108,8 +113,20 @@ int {\bfseries stat} = 0
 \Hypertarget{namespacemain_a870b77b5093210730a4ee090f1a98b96}\label{namespacemain_a870b77b5093210730a4ee090f1a98b96} 
 {\bfseries S11\+\_\+adc} = pyb.\+ADC(S11)
 \item 
+\Hypertarget{namespacemain_a94069186487b2df20c38c42aa6e51b0b}\label{namespacemain_a94069186487b2df20c38c42aa6e51b0b} 
+{\bfseries R1\+\_\+adc} = pyb.\+ADC(R1)
+\item 
+\Hypertarget{namespacemain_a7dbcefd0f3191b1d2c57b609400c7356}\label{namespacemain_a7dbcefd0f3191b1d2c57b609400c7356} 
+{\bfseries R3\+\_\+adc} = pyb.\+ADC(R3)
+\item 
+\Hypertarget{namespacemain_aae5013d481c91bc08afbc349fc4e81fc}\label{namespacemain_aae5013d481c91bc08afbc349fc4e81fc} 
+{\bfseries SWR} = Pin(Pin.\+cpu.\+B6, mode = Pin.\+IN)
+\item 
+\Hypertarget{namespacemain_a2c43384dd70b0c9dd96229385973a8b1}\label{namespacemain_a2c43384dd70b0c9dd96229385973a8b1} 
+{\bfseries SWL} = Pin(Pin.\+cpu.\+B10, mode = Pin.\+IN)
+\item 
 \Hypertarget{namespacemain_aeb0c50ad26f4fed6e53f92a39a82a3eb}\label{namespacemain_aeb0c50ad26f4fed6e53f92a39a82a3eb} 
-{\bfseries button\+\_\+int} = Ext\+Int(Pin.\+cpu.\+C13, Ext\+Int.\+IRQ\+\_\+\+FALLING,Pin.\+PULL\+\_\+\+NONE, lambda p\+: motor\+\_\+toggle(mot\+\_\+R,mot\+\_\+L,(0 if stat==1 else 1)))
+{\bfseries button\+\_\+int} = Ext\+Int(Pin.\+cpu.\+C13, Ext\+Int.\+IRQ\+\_\+\+FALLING, Pin.\+PULL\+\_\+\+NONE, lambda p\+: \mbox{\hyperlink{namespacemain_a8dec7a4fd3af23cb285860f2f61fefda}{motor\+\_\+toggle}}(mot\+\_\+R,mot\+\_\+L,(0 if stat == 1 else 1)))
 \item 
 \Hypertarget{namespacemain_a17dc4eead69279188810df7a4123f454}\label{namespacemain_a17dc4eead69279188810df7a4123f454} 
 {\bfseries motor\+\_\+R} = \mbox{\hyperlink{classmain_1_1motor}{motor}}(mot\+\_\+R, ENC\+\_\+A, "{}R"{})
@@ -117,11 +134,11 @@ int {\bfseries stat} = 0
 \Hypertarget{namespacemain_ad70340cdce43ac7e3113fac04b7239f8}\label{namespacemain_ad70340cdce43ac7e3113fac04b7239f8} 
 {\bfseries motor\+\_\+L} = \mbox{\hyperlink{classmain_1_1motor}{motor}}(mot\+\_\+L, ENC\+\_\+B, "{}L"{})
 \item 
+\Hypertarget{namespacemain_a6576a601114392f3102f66b13b7abba9}\label{namespacemain_a6576a601114392f3102f66b13b7abba9} 
+{\bfseries Sensor} = \mbox{\hyperlink{classmain_1_1sensor}{sensor}}(S11\+\_\+adc, S9\+\_\+adc, S7\+\_\+adc, S5\+\_\+adc, S3\+\_\+adc, S1\+\_\+adc, R1\+\_\+adc, R3\+\_\+adc)
+\item 
 \Hypertarget{namespacemain_ab50c60472c4b91cd530997ec8f4d2593}\label{namespacemain_ab50c60472c4b91cd530997ec8f4d2593} 
 {\bfseries Switches} = \mbox{\hyperlink{classmain_1_1switch}{switch}}(SWL, SWR)
-\item 
-\Hypertarget{namespacemain_a6576a601114392f3102f66b13b7abba9}\label{namespacemain_a6576a601114392f3102f66b13b7abba9} 
-{\bfseries Sensor} = \mbox{\hyperlink{classmain_1_1sensor}{sensor}}(S11\+\_\+adc, S9\+\_\+adc, S7\+\_\+adc, S5\+\_\+adc, S3\+\_\+adc, S1\+\_\+adc)
 \item 
 \Hypertarget{namespacemain_a6535021c2af805dd50c048d88fbc6b43}\label{namespacemain_a6535021c2af805dd50c048d88fbc6b43} 
 {\bfseries motorR} = \mbox{\hyperlink{classcotask_1_1_task}{cotask.\+Task}}(motor\+\_\+\+R.\+mot\+\_\+gen, name = "{}Motor R Run Task"{}, priority = 2, period = m\+\_\+per, profile = True, trace = True)
@@ -133,7 +150,7 @@ int {\bfseries stat} = 0
 {\bfseries Sen} = \mbox{\hyperlink{classcotask_1_1_task}{cotask.\+Task}}(Sensor.\+sen\+\_\+gen , name = "{}Sensor Run Task"{} , priority = 1, period = s\+\_\+per, profile = True, trace = True)
 \item 
 \Hypertarget{namespacemain_a7ab82f5c16aa60e7294fec36a81ab0e1}\label{namespacemain_a7ab82f5c16aa60e7294fec36a81ab0e1} 
-{\bfseries swi} = \mbox{\hyperlink{classcotask_1_1_task}{cotask.\+Task}}(Switches.\+sw\+\_\+gen , name = "{}Limit Switches Run Task"{} , priority = 3, period = l\+\_\+per, profile = True, trace = True)
+{\bfseries swi} = \mbox{\hyperlink{classcotask_1_1_task}{cotask.\+Task}}(Switches.\+sw\+\_\+gen, name = "{}Limit Switches Run Task"{}, priority = 3, period = l\+\_\+per, profile = True, trace = True)
 \end{DoxyCompactItemize}
 
 
@@ -146,6 +163,17 @@ int {\bfseries stat} = 0
 
 @date               13 November 2023
 
-@latest update      11 December 2023
+@latest update      15 December 2023
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacemain_a8dec7a4fd3af23cb285860f2f61fefda}\label{namespacemain_a8dec7a4fd3af23cb285860f2f61fefda} 
+\index{main@{main}!motor\_toggle@{motor\_toggle}}
+\index{motor\_toggle@{motor\_toggle}!main@{main}}
+\doxysubsubsection{\texorpdfstring{motor\_toggle()}{motor\_toggle()}}
+{\footnotesize\ttfamily main.\+motor\+\_\+toggle (\begin{DoxyParamCaption}\item[{}]{mot\+\_\+R,  }\item[{}]{mot\+\_\+L,  }\item[{}]{status }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief  interrupt sequence for the motors
 \end{DoxyVerb}
  

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mot_5fgen_0',['mot_gen',['../classmain_1_1motor.html#a4c9d157f8f11ee13b7122186347f2ad1',1,'main::motor']]]
+  ['load_5fcoefficients_0',['load_coefficients',['../class_b_n_o055_1_1_b_n_o055.html#ae6deaf46dd9d35f7772a295802d71e4a',1,'BNO055::BNO055']]]
 ];

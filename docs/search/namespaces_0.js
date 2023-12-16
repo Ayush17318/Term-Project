@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['closedloop_0',['ClosedLoop',['../namespace_closed_loop.html',1,'']]]
+  ['bno055_0',['BNO055',['../namespace_b_n_o055.html',1,'']]]
 ];

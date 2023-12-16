@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sensor_0',['sensor',['../namespacesensor.html',1,'']]]
+  ['queues_0',['Queues',['../namespace_queues.html',1,'']]]
 ];

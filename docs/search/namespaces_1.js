@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['encoder_5fromi_0',['encoder_romi',['../namespaceencoder__romi.html',1,'']]]
+  ['closedloop_0',['ClosedLoop',['../namespace_closed_loop.html',1,'']]]
 ];

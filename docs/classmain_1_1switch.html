@@ -101,8 +101,7 @@ $(document).ready(function(){initNavTree('classmain_1_1switch.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adbe4c915545bebf293d734667b21df12" id="r_adbe4c915545bebf293d734667b21df12"><td class="memItemLeft" align="right" valign="top"><a id="adbe4c915545bebf293d734667b21df12" name="adbe4c915545bebf293d734667b21df12"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, SWL, SWR)</td></tr>
+<tr class="memitem:adbe4c915545bebf293d734667b21df12" id="r_adbe4c915545bebf293d734667b21df12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmain_1_1switch.html#adbe4c915545bebf293d734667b21df12">__init__</a> (self, SWL, SWR)</td></tr>
 <tr class="separator:adbe4c915545bebf293d734667b21df12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3195502c9fe963d3812911458d36ca11" id="r_a3195502c9fe963d3812911458d36ca11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmain_1_1switch.html#a3195502c9fe963d3812911458d36ca11">sw_gen</a> (self)</td></tr>
 <tr class="separator:a3195502c9fe963d3812911458d36ca11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,8 +119,44 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aec9b1646c5e20d87537aad56271893ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><pre class="fragment">@brief  class to read sensor data and decide what the motors should do
-</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><pre class="fragment">@brief  class to interface with limit switches
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="adbe4c915545bebf293d734667b21df12" name="adbe4c915545bebf293d734667b21df12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbe4c915545bebf293d734667b21df12">&#9670;&#160;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">main.switch.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>SWL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>SWR</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">@brief  initialize the switches
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3195502c9fe963d3812911458d36ca11" name="a3195502c9fe963d3812911458d36ca11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3195502c9fe963d3812911458d36ca11">&#9670;&#160;</a></span>sw_gen()</h2>
 
@@ -137,9 +172,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief      
-
-@details    
+<pre class="fragment">@brief   switch generator function that checks if the switch has been pressed
 </pre> 
 </div>
 </div>

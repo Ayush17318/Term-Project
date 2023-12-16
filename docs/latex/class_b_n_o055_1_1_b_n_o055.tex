@@ -1,0 +1,290 @@
+\doxysection{BNO055.\+BNO055 Class Reference}
+\hypertarget{class_b_n_o055_1_1_b_n_o055}{}\label{class_b_n_o055_1_1_b_n_o055}\index{BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a651e0725b770252f21492ad8221c0431}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, i2c)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a9a296a72adf80f4b4a6355f38f9a1f04}{set\+\_\+operation\+\_\+mode}} (self, mode)
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a5ad6c020dfe60ec2a1b3b27c02808ddb}\label{class_b_n_o055_1_1_b_n_o055_a5ad6c020dfe60ec2a1b3b27c02808ddb} 
+{\bfseries reset} (self)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a1029908eedb2f26283c11cf9ad815bfc}{get\+\_\+calibration\+\_\+status}} (self)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a939d761f78c47d5a51f453601dc39684}{read\+\_\+calibration\+\_\+coefficients}} (self)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a6ba19578c8638170363cd03bb25e5210}{write\+\_\+calibration\+\_\+coefficients}} (self, coefficients)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a2406ca91800edec0a77d0cedb98d95ca}{read\+\_\+euler\+\_\+angles}} (self)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_a94377634a0086047f1118c2c477a5fc1}{read\+\_\+angular\+\_\+velocity}} (self)
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_ae6deaf46dd9d35f7772a295802d71e4a}{load\+\_\+coefficients}} (self, filename="{}IMU\+\_\+cal\+\_\+coeffs.\+txt"{})
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_aefadef69d6fe3428cd62bce95c0cdbb8}{save\+\_\+coefficients}} (self, filename="{}IMU\+\_\+cal\+\_\+coeffs.\+txt"{})
+\item 
+\mbox{\hyperlink{class_b_n_o055_1_1_b_n_o055_ae216708d4fe2b61a06a6140daa25db79}{remap\+\_\+axes}} (self, placement)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a8eebc88bf7ecfe69323da2b089911508}\label{class_b_n_o055_1_1_b_n_o055_a8eebc88bf7ecfe69323da2b089911508} 
+{\bfseries i2c}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a9437eec12816ef9a7167519ec0c07038}\label{class_b_n_o055_1_1_b_n_o055_a9437eec12816ef9a7167519ec0c07038} 
+{\bfseries i2c\+\_\+addr}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_aee8db1d4b55269632d343ab227fe921c}\label{class_b_n_o055_1_1_b_n_o055_aee8db1d4b55269632d343ab227fe921c} 
+{\bfseries mag\+\_\+radius\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a25a50669b6b34908c67c0eb64539bc50}\label{class_b_n_o055_1_1_b_n_o055_a25a50669b6b34908c67c0eb64539bc50} 
+{\bfseries mag\+\_\+radius\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_af2b43c8a7f09a9bf1551040104e73f8a}\label{class_b_n_o055_1_1_b_n_o055_af2b43c8a7f09a9bf1551040104e73f8a} 
+{\bfseries acc\+\_\+radius\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ac168161430057e3765fd1ee872ee5c6c}\label{class_b_n_o055_1_1_b_n_o055_ac168161430057e3765fd1ee872ee5c6c} 
+{\bfseries gyr\+\_\+off\+\_\+z\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a59dd959769c45b1e2b364d9953a9aae8}\label{class_b_n_o055_1_1_b_n_o055_a59dd959769c45b1e2b364d9953a9aae8} 
+{\bfseries gyr\+\_\+off\+\_\+z\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a1343b91c2e06cd02dc2f38da694a061a}\label{class_b_n_o055_1_1_b_n_o055_a1343b91c2e06cd02dc2f38da694a061a} 
+{\bfseries gyr\+\_\+off\+\_\+y\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a714eb080f31e3f7708720a2c4f9b71d4}\label{class_b_n_o055_1_1_b_n_o055_a714eb080f31e3f7708720a2c4f9b71d4} 
+{\bfseries gyr\+\_\+off\+\_\+y\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a043d83a8af20e2bc8b8cc0fad2b51ecd}\label{class_b_n_o055_1_1_b_n_o055_a043d83a8af20e2bc8b8cc0fad2b51ecd} 
+{\bfseries gyr\+\_\+off\+\_\+x\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a4f211572d5a4f6f9d77aba8cfeed8860}\label{class_b_n_o055_1_1_b_n_o055_a4f211572d5a4f6f9d77aba8cfeed8860} 
+{\bfseries gyr\+\_\+off\+\_\+x\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a05f7bded3290b9027612a76ffa6edfb5}\label{class_b_n_o055_1_1_b_n_o055_a05f7bded3290b9027612a76ffa6edfb5} 
+{\bfseries mag\+\_\+off\+\_\+z\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ad9fdc50659d76b3011c484263cf5525b}\label{class_b_n_o055_1_1_b_n_o055_ad9fdc50659d76b3011c484263cf5525b} 
+{\bfseries mag\+\_\+off\+\_\+z\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ad16ad7bb7d1f3a51be7d798434f8841e}\label{class_b_n_o055_1_1_b_n_o055_ad16ad7bb7d1f3a51be7d798434f8841e} 
+{\bfseries mag\+\_\+off\+\_\+y\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a7a7c6ef4fecefdf2b295293512a6606b}\label{class_b_n_o055_1_1_b_n_o055_a7a7c6ef4fecefdf2b295293512a6606b} 
+{\bfseries mag\+\_\+off\+\_\+y\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a2af96b0dae058c4dc9b8c080634c2119}\label{class_b_n_o055_1_1_b_n_o055_a2af96b0dae058c4dc9b8c080634c2119} 
+{\bfseries mag\+\_\+off\+\_\+x\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a38bd60dd0b5c31117b2eba8c6491d902}\label{class_b_n_o055_1_1_b_n_o055_a38bd60dd0b5c31117b2eba8c6491d902} 
+{\bfseries mag\+\_\+off\+\_\+x\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ade6b5609cc4a2295267ceb115edbb4ea}\label{class_b_n_o055_1_1_b_n_o055_ade6b5609cc4a2295267ceb115edbb4ea} 
+{\bfseries acc\+\_\+off\+\_\+z\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_abbb264313d1947977ba95d47e2de8727}\label{class_b_n_o055_1_1_b_n_o055_abbb264313d1947977ba95d47e2de8727} 
+{\bfseries acc\+\_\+off\+\_\+z\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ac911b20e6f17f81f44b917d2d81cec14}\label{class_b_n_o055_1_1_b_n_o055_ac911b20e6f17f81f44b917d2d81cec14} 
+{\bfseries acc\+\_\+off\+\_\+y\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_acf41d84c7675403059d34f4cdaef0cd3}\label{class_b_n_o055_1_1_b_n_o055_acf41d84c7675403059d34f4cdaef0cd3} 
+{\bfseries acc\+\_\+off\+\_\+y\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a5cb2d879f899ad8929aa88b3e02280ed}\label{class_b_n_o055_1_1_b_n_o055_a5cb2d879f899ad8929aa88b3e02280ed} 
+{\bfseries acc\+\_\+off\+\_\+x\+\_\+msb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ab07c5f7b8b26ccacc7738b26777c838f}\label{class_b_n_o055_1_1_b_n_o055_ab07c5f7b8b26ccacc7738b26777c838f} 
+{\bfseries acc\+\_\+off\+\_\+x\+\_\+lsb}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a8f528fe7aaf7c4748113c24dfc615185}\label{class_b_n_o055_1_1_b_n_o055_a8f528fe7aaf7c4748113c24dfc615185} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P0}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a3abb02fd6c0bf2b9004d8417a75e86e6}\label{class_b_n_o055_1_1_b_n_o055_a3abb02fd6c0bf2b9004d8417a75e86e6} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P1}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_af22b6c4dd406fd198602350e86a1039d}\label{class_b_n_o055_1_1_b_n_o055_af22b6c4dd406fd198602350e86a1039d} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P2}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ae4fc1441af7b78b9570b2490142f42c3}\label{class_b_n_o055_1_1_b_n_o055_ae4fc1441af7b78b9570b2490142f42c3} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P3}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a7985612da79ce72703a1e5d85e4b642a}\label{class_b_n_o055_1_1_b_n_o055_a7985612da79ce72703a1e5d85e4b642a} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P4}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a72fa604f6f93253132e2b3380fc91c49}\label{class_b_n_o055_1_1_b_n_o055_a72fa604f6f93253132e2b3380fc91c49} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P5}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a816572ea3dc962666f6a0cbaf33d8482}\label{class_b_n_o055_1_1_b_n_o055_a816572ea3dc962666f6a0cbaf33d8482} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P6}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a658e5b5eeaf549b2cb5ae91fe68dd7b7}\label{class_b_n_o055_1_1_b_n_o055_a658e5b5eeaf549b2cb5ae91fe68dd7b7} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+P7}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ac9f8653299af7dabc7c387ef91ab5e09}\label{class_b_n_o055_1_1_b_n_o055_ac9f8653299af7dabc7c387ef91ab5e09} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P0}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_af429b4b8ac07c896cc9a9008d8a24779}\label{class_b_n_o055_1_1_b_n_o055_af429b4b8ac07c896cc9a9008d8a24779} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P1}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a295bf9002a33a0727d54c1fb0c6b6671}\label{class_b_n_o055_1_1_b_n_o055_a295bf9002a33a0727d54c1fb0c6b6671} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P2}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_aae4738a37cda96055633f3b0f22c6530}\label{class_b_n_o055_1_1_b_n_o055_aae4738a37cda96055633f3b0f22c6530} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P3}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_ab6896523d847875357412573860b71e0}\label{class_b_n_o055_1_1_b_n_o055_ab6896523d847875357412573860b71e0} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P4}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a839bcb0b16274f176eada1f7542a3c71}\label{class_b_n_o055_1_1_b_n_o055_a839bcb0b16274f176eada1f7542a3c71} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P5}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a8f3f1088e560fb34c2460172c99138ff}\label{class_b_n_o055_1_1_b_n_o055_a8f3f1088e560fb34c2460172c99138ff} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P6}
+\item 
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_acae5fb43fa198b5b3391ce6d5e4b615c}\label{class_b_n_o055_1_1_b_n_o055_acae5fb43fa198b5b3391ce6d5e4b615c} 
+{\bfseries AXIS\+\_\+\+REMAP\+\_\+\+SIGN\+\_\+\+P7}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief      class to interface BNO055 IMU sensor
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a651e0725b770252f21492ad8221c0431}\label{class_b_n_o055_1_1_b_n_o055_a651e0725b770252f21492ad8221c0431} 
+\index{BNO055.BNO055@{BNO055.BNO055}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{i2c }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      intialize the i2c, all the addresses, and set the 
+            operation mode
+
+#i2c        set the i2c for this class
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_b_n_o055_1_1_b_n_o055_a1029908eedb2f26283c11cf9ad815bfc}\label{class_b_n_o055_1_1_b_n_o055_a1029908eedb2f26283c11cf9ad815bfc} 
+\index{BNO055.BNO055@{BNO055.BNO055}!get\_calibration\_status@{get\_calibration\_status}}
+\index{get\_calibration\_status@{get\_calibration\_status}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{get\_calibration\_status()}{get\_calibration\_status()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+get\+\_\+calibration\+\_\+status (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      obtain the calibration status for each of the sensor and
+            overall system
+            0 is not calibrated
+            3 is fully calibrated
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_ae6deaf46dd9d35f7772a295802d71e4a}\label{class_b_n_o055_1_1_b_n_o055_ae6deaf46dd9d35f7772a295802d71e4a} 
+\index{BNO055.BNO055@{BNO055.BNO055}!load\_coefficients@{load\_coefficients}}
+\index{load\_coefficients@{load\_coefficients}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{load\_coefficients()}{load\_coefficients()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+load\+\_\+coefficients (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename = {\ttfamily "{}IMU\+\_\+cal\+\_\+coeffs.txt"{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      load calibration coefficients from a file and set them in the IMU
+
+@filename   name of the file to load calibration coefficients from
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_a94377634a0086047f1118c2c477a5fc1}\label{class_b_n_o055_1_1_b_n_o055_a94377634a0086047f1118c2c477a5fc1} 
+\index{BNO055.BNO055@{BNO055.BNO055}!read\_angular\_velocity@{read\_angular\_velocity}}
+\index{read\_angular\_velocity@{read\_angular\_velocity}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{read\_angular\_velocity()}{read\_angular\_velocity()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+read\+\_\+angular\+\_\+velocity (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      get the 6 ang velocities (rate of change in euler angles)
+            each ang vel is 2 bytes across 2 registers by MSB and LSB
+            order is (2 bytes each) rate of roll, pitch, yaw        
+            struct contains 6 signed integers         
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_a939d761f78c47d5a51f453601dc39684}\label{class_b_n_o055_1_1_b_n_o055_a939d761f78c47d5a51f453601dc39684} 
+\index{BNO055.BNO055@{BNO055.BNO055}!read\_calibration\_coefficients@{read\_calibration\_coefficients}}
+\index{read\_calibration\_coefficients@{read\_calibration\_coefficients}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{read\_calibration\_coefficients()}{read\_calibration\_coefficients()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+read\+\_\+calibration\+\_\+coefficients (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      get the 22 calibration coefficients
+            each coeff is 2 bytes across 2 registers by MSB and LSB
+            order is (2 bytes each) accel x
+                                    accel y
+                                    accel z
+                                    mag x
+                                    mag y
+                                    mag z
+                                    gyr x
+                                    gyr y
+                                    gyr z
+                                    accel radius
+                                    mag radius
+            struct contains 11 signed integers         
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_a2406ca91800edec0a77d0cedb98d95ca}\label{class_b_n_o055_1_1_b_n_o055_a2406ca91800edec0a77d0cedb98d95ca} 
+\index{BNO055.BNO055@{BNO055.BNO055}!read\_euler\_angles@{read\_euler\_angles}}
+\index{read\_euler\_angles@{read\_euler\_angles}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{read\_euler\_angles()}{read\_euler\_angles()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+read\+\_\+euler\+\_\+angles (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      get the 6 euler angles
+            each angle is 2 bytes across 2 registers by MSB and LSB
+            order is (2 bytes each) roll, pitch, yaw        
+            struct contains 6 signed integers         
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_ae216708d4fe2b61a06a6140daa25db79}\label{class_b_n_o055_1_1_b_n_o055_ae216708d4fe2b61a06a6140daa25db79} 
+\index{BNO055.BNO055@{BNO055.BNO055}!remap\_axes@{remap\_axes}}
+\index{remap\_axes@{remap\_axes}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{remap\_axes()}{remap\_axes()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+remap\+\_\+axes (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{placement }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief          remap the axes of the BNO055
+
+@placement      orientation of the imu axes wrt to desired orientation
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_aefadef69d6fe3428cd62bce95c0cdbb8}\label{class_b_n_o055_1_1_b_n_o055_aefadef69d6fe3428cd62bce95c0cdbb8} 
+\index{BNO055.BNO055@{BNO055.BNO055}!save\_coefficients@{save\_coefficients}}
+\index{save\_coefficients@{save\_coefficients}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{save\_coefficients()}{save\_coefficients()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+save\+\_\+coefficients (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename = {\ttfamily "{}IMU\+\_\+cal\+\_\+coeffs.txt"{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      save calibration coefficients to a file
+
+@filename   name of the file to save calibration coefficients to
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_a9a296a72adf80f4b4a6355f38f9a1f04}\label{class_b_n_o055_1_1_b_n_o055_a9a296a72adf80f4b4a6355f38f9a1f04} 
+\index{BNO055.BNO055@{BNO055.BNO055}!set\_operation\_mode@{set\_operation\_mode}}
+\index{set\_operation\_mode@{set\_operation\_mode}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{set\_operation\_mode()}{set\_operation\_mode()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+set\+\_\+operation\+\_\+mode (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{mode }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      set the operation mode by writing to the IMU
+
+@mode       hex value indicating the operation mode
+\end{DoxyVerb}
+ \Hypertarget{class_b_n_o055_1_1_b_n_o055_a6ba19578c8638170363cd03bb25e5210}\label{class_b_n_o055_1_1_b_n_o055_a6ba19578c8638170363cd03bb25e5210} 
+\index{BNO055.BNO055@{BNO055.BNO055}!write\_calibration\_coefficients@{write\_calibration\_coefficients}}
+\index{write\_calibration\_coefficients@{write\_calibration\_coefficients}!BNO055.BNO055@{BNO055.BNO055}}
+\doxysubsubsection{\texorpdfstring{write\_calibration\_coefficients()}{write\_calibration\_coefficients()}}
+{\footnotesize\ttfamily BNO055.\+BNO055.\+write\+\_\+calibration\+\_\+coefficients (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{coefficients }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief      write the 22 calibration coefficients to the IMU
+            each coeff is 2 bytes across 2 registers by MSB and LSB
+            order is (2 bytes each) accel x
+                                    accel y
+                                    accel z
+                                    mag x
+                                    mag y
+                                    mag z
+                                    gyr x
+                                    gyr y
+                                    gyr z
+                                    accel radius
+                                    mag radius
+            struct contains 11 signed integers         
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+BNO055.\+py\end{DoxyCompactItemize}

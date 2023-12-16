@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['schedule_0',['schedule',['../classcotask_1_1_task.html#af60def0ed4a1bc5fec32f3cf8b8a90c8',1,'cotask::Task']]],
-  ['sen_5fgen_1',['sen_gen',['../classmain_1_1sensor.html#af5832be37bfa47254960a4831e1a5abb',1,'main::sensor']]],
-  ['set_5fki_2',['set_Ki',['../class_closed_loop_1_1_closed_loop.html#a64194822d3680c13c179b3bd01ed9b68',1,'ClosedLoop::ClosedLoop']]],
-  ['set_5fkp_3',['set_Kp',['../class_closed_loop_1_1_closed_loop.html#a816da5086e114ab7be813dd99324c387',1,'ClosedLoop::ClosedLoop']]],
-  ['set_5fperiod_4',['set_period',['../classcotask_1_1_task.html#a0fcee5beb8b2fed77e5125c58ba35c26',1,'cotask::Task']]],
-  ['setpoint_5',['setpoint',['../class_closed_loop_1_1_closed_loop.html#a7729d04a10167714443f185d0f1793d5',1,'ClosedLoop::ClosedLoop']]],
-  ['show_5fall_6',['show_all',['../task__share_8py.html#ad6aea1db68be1a10f72039a5ac9e9dd4',1,'task_share']]],
-  ['sw_5fgen_7',['sw_gen',['../classmain_1_1switch.html#a3195502c9fe963d3812911458d36ca11',1,'main::switch']]]
+  ['read_5fangular_5fvelocity_0',['read_angular_velocity',['../class_b_n_o055_1_1_b_n_o055.html#a94377634a0086047f1118c2c477a5fc1',1,'BNO055::BNO055']]],
+  ['read_5fcalibration_5fcoefficients_1',['read_calibration_coefficients',['../class_b_n_o055_1_1_b_n_o055.html#a939d761f78c47d5a51f453601dc39684',1,'BNO055::BNO055']]],
+  ['read_5feuler_5fangles_2',['read_euler_angles',['../class_b_n_o055_1_1_b_n_o055.html#a2406ca91800edec0a77d0cedb98d95ca',1,'BNO055::BNO055']]],
+  ['ready_3',['ready',['../classcotask_1_1_task.html#a6102bc35d7cb1ce292abc85d4ddc23e1',1,'cotask::Task']]],
+  ['remap_5faxes_4',['remap_axes',['../class_b_n_o055_1_1_b_n_o055.html#ae216708d4fe2b61a06a6140daa25db79',1,'BNO055::BNO055']]],
+  ['reset_5fprofile_5',['reset_profile',['../classcotask_1_1_task.html#a0fd4093dcd01cd1d05ace187956340cf',1,'cotask::Task']]],
+  ['rr_5fsched_6',['rr_sched',['../classcotask_1_1_task_list.html#aa048a6b12954d03b8fbf78dff7ace907',1,'cotask::TaskList']]]
 ];

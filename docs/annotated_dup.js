@@ -1,5 +1,8 @@
 var annotated_dup =
 [
+    [ "BNO055", "namespace_b_n_o055.html", [
+      [ "BNO055", "class_b_n_o055_1_1_b_n_o055.html", "class_b_n_o055_1_1_b_n_o055" ]
+    ] ],
     [ "ClosedLoop", "namespace_closed_loop.html", [
       [ "ClosedLoop", "class_closed_loop_1_1_closed_loop.html", "class_closed_loop_1_1_closed_loop" ]
     ] ],
@@ -8,7 +11,7 @@ var annotated_dup =
       [ "TaskList", "classcotask_1_1_task_list.html", "classcotask_1_1_task_list" ]
     ] ],
     [ "encoder_romi", "namespaceencoder__romi.html", [
-      [ "Encoder", "classencoder__romi_1_1_encoder.html", null ]
+      [ "Encoder", "classencoder__romi_1_1_encoder.html", "classencoder__romi_1_1_encoder" ]
     ] ],
     [ "main", "namespacemain.html", [
       [ "motor", "classmain_1_1motor.html", "classmain_1_1motor" ],
