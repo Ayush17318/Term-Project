@@ -1,17 +1,22 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Nov 13 13:06:34 2023
+@file               motor_romi.py
 
-@author: akank
+@brief              Controller for romi motors
+
+@author             Akanksha Maddi and Ayush Kakkanat
+
+@date               13 November 2023
+
+@latest update      15 December 2023
 """
 
 from pyb import Pin, Timer
-# from time import sleep_ms
 from array import array
 from micropython import alloc_emergency_exception_buf
 
 
 class L6206:
+    
     def __init__ (self, PWM_tim, IN1_pin, IN2_pin, EN_pin):
 
         self.tim = PWM_tim
