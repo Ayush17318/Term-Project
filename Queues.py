@@ -1,14 +1,10 @@
-"""
-@file               Queues.py
-    
-@brief              Sets up the queues to be used in the main file and task
-                    class files
+"""!
+@file Queues.py
+Sets up the queues to be used in the main file.
 
-@author             Ayush Kakkanat
-
-@date created       5 November 2023
-
-@latest update      15 December 2023
+@author Ayush Kakkanat and Akanksha Maddi
+@date   5 November 2023 Date of creation of file
+@date   19 December 2023 Updated doxygen documentation
 """
 
 import task_share
